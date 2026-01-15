@@ -11,6 +11,7 @@
   - dotnet add package Microsoft.EntityFrameworkCore.Design --version 10.
   - dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 10.
 * Habilitación de redirección seguro https por componente
+* Cada componente contiene en la raiz el archivo Dockerfile para su despliegue con Docker Compose.
 * Clean arquitecture (Ports & Adapters, Hexagonal)
 * Producer y Consumers (eventos), integración mediante el Broker Kafka (topicos "event-topic","notification-topic")
 * Persistencia de datos en motor PostgreSql
@@ -32,7 +33,17 @@
 
 | 4. /DEPLOY --> Contiene los archivos compose .yaml para su despliegue en bloque: |
 |------------|
-* Tecnologías ReactJs 18x, NextJs 13x, NextAuth
+Deploy del componente BE:
+* Ubicarse en la ruta del archivo docker-compose-apis-core.yaml
+* Ejecutar el siguiente comando:
+  - docker compose -f docker-compose-apis-core.yaml up --build -d
+  - docker compose ps --> validar la creación de cada componente 
+
+Deploy del componente FE:
+* Ubicarse en la ruta del archivo docker-compose-reactjs.yaml
+* Ejecutar el siguiente comando:
+  - docker compose -f docker-compose-reactjs.yaml up --build -d
+  - docker compose ps --> validar la creación del componente 
   
     
 
