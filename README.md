@@ -33,6 +33,7 @@
 
 | 4. /DEPLOY --> Contiene los archivos compose .yaml para su despliegue en bloque: |
 |------------|
+
 Deploy del componente BE:
 * Ubicarse en la ruta del archivo docker-compose-apis-core.yaml
 * Ejecutar el siguiente comando:
