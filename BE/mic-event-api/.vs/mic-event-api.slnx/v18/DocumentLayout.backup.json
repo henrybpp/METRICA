@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\mic-event-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:mic-event-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\application\\ports\\in\\icreateeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:application\\ports\\in\\icreateeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\application\\usecases\\createeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:application\\usecases\\createeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\infrastructure\\messaging\\kafkamessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:infrastructure\\messaging\\kafkamessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\application\\ports\\out\\imessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:application\\ports\\out\\imessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\infrastructure\\messaging\\kafkabackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:infrastructure\\messaging\\kafkabackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\application\\ports\\out\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:application\\ports\\out\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\application\\ports\\out\\imessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:application\\ports\\out\\imessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|c:\\users\\henry\\source\\repos\\mic-event-api\\adapters\\inbound\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DBFE9A-F90A-973B-A8CB-764475444B90}|mic-event-api.csproj|solutionrelative:adapters\\inbound\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-13T23:45:44.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mic-event-api.http",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\mic-event-api.http",
+              "RelativeDocumentMoniker": "mic-event-api.http",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\mic-event-api.http",
+              "RelativeToolTip": "mic-event-api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-13T23:42:06.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICreateEventUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\In\\ICreateEventUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\Ports\\In\\ICreateEventUseCase.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\In\\ICreateEventUseCase.cs",
+              "RelativeToolTip": "Application\\Ports\\In\\ICreateEventUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T23:16:48.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KafkaMessageConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Infrastructure\\Messaging\\KafkaMessageConsumer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Messaging\\KafkaMessageConsumer.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Infrastructure\\Messaging\\KafkaMessageConsumer.cs",
+              "RelativeToolTip": "Infrastructure\\Messaging\\KafkaMessageConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:59:07.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KafkaBackgroundService.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Infrastructure\\Messaging\\KafkaBackgroundService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Messaging\\KafkaBackgroundService.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Infrastructure\\Messaging\\KafkaBackgroundService.cs",
+              "RelativeToolTip": "Infrastructure\\Messaging\\KafkaBackgroundService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T08:16:36.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateEventUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\UseCases\\CreateEventUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\CreateEventUseCase.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\UseCases\\CreateEventUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\CreateEventUseCase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T06:27:05.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMessageConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\Out\\IMessageConsumer.cs",
+              "RelativeDocumentMoniker": "Application\\Ports\\Out\\IMessageConsumer.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\Out\\IMessageConsumer.cs",
+              "RelativeToolTip": "Application\\Ports\\Out\\IMessageConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:43:02.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T17:41:22.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\Out\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Ports\\Out\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\Out\\IEventRepository.cs",
+              "RelativeToolTip": "Application\\Ports\\Out\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:41:19.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-13T07:16:22.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMessageProducer.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\Out\\IMessageProducer.cs",
+              "RelativeDocumentMoniker": "Application\\Ports\\Out\\IMessageProducer.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Application\\Ports\\Out\\IMessageProducer.cs",
+              "RelativeToolTip": "Application\\Ports\\Out\\IMessageProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:51:24.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Adapters\\Inbound\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Adapters\\Inbound\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-event-api\\Adapters\\Inbound\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Adapters\\Inbound\\Controllers\\EventController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T06:24:48.811Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

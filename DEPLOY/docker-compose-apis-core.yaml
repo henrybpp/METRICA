@@ -1,0 +1,73 @@
+version: "3.9"
+
+services:
+  api-orchestator:
+    build:
+      context: .
+      dockerfile: src/mic-bff-orchestator-api/Dockerfile
+    container_name: orchestator_api_net10
+    ports:
+      - "5000:7216"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+
+  api-events:
+    build:
+      context: .
+      dockerfile: src/mic-event-api/Dockerfile
+    container_name: event_api_net10
+    ports:
+      - "5000:7215"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: >
+        Host=db;
+        Port=5432;
+        Database=OnlineEvents;
+        Username=postgres;
+        Password=postgres
+    depends_on:
+      - db
+    command: >
+      sh -c "
+      dotnet ef database update &&
+      dotnet EventApi.dll
+      "
+  api-notifications:
+    build:
+      context: .
+      dockerfile: src/mic-notification-api/Dockerfile
+    container_name: notification_api_net10
+    ports:
+      - "5000:7214"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: >
+        Host=db;
+        Port=5432;
+        Database=OnlineNotifications;
+        Username=postgres;
+        Password=postgres
+    depends_on:
+      - db
+    command: >
+      sh -c "
+      dotnet ef database update &&
+      dotnet EventApi.dll
+      "
+
+  db:
+    image: postgres:16
+    container_name: postgres_net10
+    restart: always
+    environment:
+      POSTGRES_DB: eventsdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

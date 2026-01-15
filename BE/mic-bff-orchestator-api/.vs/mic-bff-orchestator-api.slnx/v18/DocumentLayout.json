@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\adapters\\inbound\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:adapters\\inbound\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\application\\usecases\\createeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:application\\usecases\\createeventusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\application\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:application\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\application\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:application\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\infrastructure\\messaging\\kafkamessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:infrastructure\\messaging\\kafkamessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|c:\\users\\henry\\source\\repos\\mic-bff-orchestator-api\\application\\ports\\out\\imessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB324A90-C0D9-4926-D98D-84B8EC3D7D32}|mic-bff-orchestator-api.csproj|solutionrelative:application\\ports\\out\\imessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T01:42:57.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\DTOs\\EventDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\EventDTO.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\DTOs\\EventDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\EventDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T00:03:31.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateEventUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\UseCases\\CreateEventUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\CreateEventUseCase.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\UseCases\\CreateEventUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\CreateEventUseCase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T23:17:07.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KafkaMessageProducer.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "RelativeToolTip": "Infrastructure\\Messaging\\KafkaMessageProducer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T22:53:05.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Adapters\\Inbound\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Adapters\\Inbound\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Adapters\\Inbound\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Adapters\\Inbound\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T22:10:04.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\DTOs\\NotificationDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\NotificationDTO.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\DTOs\\NotificationDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\NotificationDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T01:57:48.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-13T23:46:15.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMessageProducer.cs",
+              "DocumentMoniker": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\Ports\\Out\\IMessageProducer.cs",
+              "RelativeDocumentMoniker": "Application\\Ports\\Out\\IMessageProducer.cs",
+              "ToolTip": "C:\\Users\\Henry\\source\\repos\\mic-bff-orchestator-api\\Application\\Ports\\Out\\IMessageProducer.cs",
+              "RelativeToolTip": "Application\\Ports\\Out\\IMessageProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T22:51:25.784Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
