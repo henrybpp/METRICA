@@ -1,10 +1,11 @@
 # METRICA
 
-| 1. /ARCHI --> Contiene el diseño y detalle a nivel de arquitectura de los componentes involucrados para el proyecto "Online Events".|
+|1. /ARCHI --> Contiene el diseño y detalle a nivel de arquitectura de los componentes involucrados para el proyecto "Online Events".|
 |------------|
 * Realizado con la herramienta DrawIo.
+* Integración de componente backends, frontend, Social Login y Broker Kafka
 
-| 2. /BE --> Contiene los componentes backends con las siguientes características: |
+|2. /BE --> Contiene los componentes backends con las siguientes características: |
 |------------|
 * Tecnología NetCore 10 con ORM EntityFramefrork (EF), librerías necesarias:
   - dotnet add package Microsoft.EntityFrameworkCore --version 10.
@@ -20,7 +21,7 @@
   - dotnet ef migrations add eventMigration --project .\mic-event-api.csproj
   - dotnet ef database update eventMigration --project .\mic-event-api.csproj
  
-| 3. /FE --> Contiene el componente cliente web frontend con las siguientes características: |
+|3. /FE --> Contiene el componente cliente web frontend con las siguientes características: |
 |------------|
 * Tecnologías ReactJs 18x, NextJs 13x, NextAuth
 * tailwindcss 3x, facilita:
@@ -31,7 +32,7 @@
 * Autenticación federada (Social Login con Google IDP --> OAuth 2.0 / OIDC)
 * Envío del idToken para su validación en backend (BFF o microservicio)
 
-| 4. /DEPLOY --> Contiene los archivos compose .yaml para su despliegue en bloque: |
+|4. /DEPLOY --> Contiene los archivos compose .yaml para su despliegue en bloque: |
 |------------|
 
 Deploy del componente BE:
