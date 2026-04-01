@@ -1,0 +1,58 @@
+{
+  "name": "sur-appcli-funcliopebff",
+  "version": "1.0.0",
+  "description": "Nodejs microservice example",
+  "main": "app/api/index.js",
+  "author": "",
+  "system": "darwin-generator-nodejs-system",
+  "subSystem": "darwin-generator-nodejs-sub-system",
+  "application": "darwin-generator-nodejs-application",
+  "subApplication": "subApplication",
+  "appKey": "appcli",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run start:functions",
+    "dev": "npm run start:functions",
+    "start:functions": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -Command \"Push-Location app; npx func start --port 7071\"",
+    "start:standalone": "npm run build && node app/server/standalone.js",
+    "dev:standalone": "npm run start:standalone",
+    "build": "tsc && tsc-alias -p tsconfig.json && npm run copy",
+    "copy": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"New-Item -ItemType Directory -Force app/api | Out-Null; Copy-Item -Force src/api/function.json app/api/; Copy-Item -Force host.json app/; $pkg = Get-Content package.json -Raw | ConvertFrom-Json; $appPkg = [ordered]@{ name = $pkg.name; version = $pkg.version; private = $true; main = 'api/index.js'; engines = $pkg.engines; dependencies = $pkg.dependencies }; $json = $appPkg | ConvertTo-Json -Depth 50; [System.IO.File]::WriteAllText('app/package.json', $json, (New-Object System.Text.UTF8Encoding($false))); if (Test-Path package-lock.json) { Copy-Item -Force package-lock.json app/ }; if (Test-Path .npmrc) { Copy-Item -Force .npmrc app/ }\"",
+    "lint": "eslint ./**/*.ts",
+    "lint:fix": "eslint ./**/*.ts --quiet --fix",
+    "precommit": "npm run test:coverage",
+    "audit": "npm audit --registry=https://registry.npmjs.org --proxy=http://proxyapps.gsnet.corp:80 --strict-ssl=false",
+    "audit:fix": " npm audit fix --force --registry=https://registry.npmjs.org --proxy=http://proxyapps.gsnet.corp:80 --strict-ssl=false",
+    "test": "cross-env NODE_ENV=test jest --detectOpenHandles --forceExit",
+    "test:coverage": "cross-env NODE_ENV=test jest --coverage --detectOpenHandles --forceExit",
+    "test:continuous": "cross-env NODE_ENV=test jest --watchAll"
+  },
+  "engines": {
+    "node": ">=20.* <=22.*"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.11.2",
+    "fastify": "^5.8.4",
+    "reflect-metadata": "^0.2.2",
+    "tsyringe": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "^25.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "azure-functions-core-tools": "^4.8.0",
+    "cross-env": "^10.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-security": "^1.7.1",
+    "jest": "^28.1.3",
+    "jest-mock-extended": "^4.0.0",
+    "lint-staged": "^11.2.6",
+    "supertest": "^7.2.2",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^5.9.3"
+  }
+}
