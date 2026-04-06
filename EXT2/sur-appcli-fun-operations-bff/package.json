@@ -1,0 +1,27 @@
+{
+  "name": "sur-appcli-fun-operations-bff",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf dist",
+    "prestart": "npm run clean && npm run build",
+    "start": "func host start",
+    "dev": "func host start",
+    "dev:win": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$env:Path += ';' + $env:APPDATA + '\\npm'; $port = if ($env:FUNC_PORT) { $env:FUNC_PORT } else { '7071' }; $az = Join-Path (Get-Location) 'node_modules\\.bin\\azurite.cmd'; Start-Process -WindowStyle Hidden -FilePath $az -ArgumentList '--silent --location .azurite --debug .azurite\\debug.log'; func host start --port $port\"",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "reflect-metadata": "^0.2.2",
+    "tsyringe": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "azurite": "^3.35.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0"
+  },
+  "main": "dist/src/index.js"
+}
