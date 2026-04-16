@@ -1,0 +1,104 @@
+{
+  "info": {
+    "_postman_id": "01c96430-70a6-4f3c-9e4c-8b3c4f7b6c5b",
+    "name": "sur-appcli-fun-operations-bff",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Operations - GET (query param)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/httpTriggerOperations?name=Postman",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "httpTriggerOperations"
+          ],
+          "query": [
+            {
+              "key": "name",
+              "value": "Postman"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Operations - POST (text/plain body)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "Postman"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/httpTriggerOperations",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "httpTriggerOperations"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Operations - POST (JSON string body)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Postman\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/httpTriggerOperations",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "httpTriggerOperations"
+          ]
+        },
+        "description": "Este function lee request.text(); si mandas JSON va a responder con el JSON como string (no parsea)."
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "pm.test('Status 200', function () {",
+          "  pm.response.to.have.status(200);",
+          "});",
+          "pm.test('Body contains Hello', function () {",
+          "  pm.expect(pm.response.text()).to.include('Hello');",
+          "});"
+        ]
+      }
+    }
+  ]
+}
